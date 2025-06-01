@@ -73,10 +73,10 @@ a{
     background-color: #3882f6;
     color: white;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     width: 160px;
     border-radius: 8px;
-    padding: 8px 8px;
+    padding: 8px 4px;
 }
 
 .Hero-Header, .Hero-Parag{
@@ -93,9 +93,10 @@ a{
     font-weight: 900;
 }
 
-.Hero-Parag, .right-links{
+.Hero-Parag, .right-links, .cta-subtext{
     color: #E5E7EB;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .middleContent{
@@ -144,8 +145,8 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .q-text{
@@ -164,4 +165,45 @@ a{
     width: 750px;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
+}
+
+.CallToAction{
+    background-color: #ffffff;
+    padding: 100px 200px;
+}
+
+.cta-container{
+    border: 1px #1F2937 solid;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    border-radius: 8px;
+}
+
+.cta-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.cta-button{
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    padding: 0px 30px;
+    padding-top: 2px;
 }
