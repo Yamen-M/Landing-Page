@@ -6,6 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    overflow-x: hidden;
 }
 
 .HeaderHero{
@@ -169,7 +170,7 @@ a{
 
 .CallToAction{
     background-color: #ffffff;
-    padding: 100px 200px;
+    padding: 100px 0px;
 }
 
 .cta-container{
@@ -181,6 +182,8 @@ a{
     padding-bottom: 50px;
     padding-left: 40px;
     border-radius: 8px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .cta-content{
@@ -214,4 +217,14 @@ a{
     margin-top: auto;
     text-align: center;
     padding: 35px;
+}
+
+.HeaderHero, .middleContent, .quote, .CallToAction {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
